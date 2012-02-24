@@ -2,6 +2,12 @@ CORS Example - Silex (Symfony 2) Web App, Silex JSON REST API, Node.js JSON REST
 ==============================================================================================
 Author: Ben Wann (with heavy leverage from the "Silex - Kitchen Edition" project)
 
+Requirements
+  * Node.js
+  * Express 
+  
+Follow the installation guide here: http://expressjs.com/guide.html
+
 
 Derived from Silex - Kitchen Edition
 ------------
