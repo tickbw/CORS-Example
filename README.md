@@ -8,6 +8,12 @@ Requirements
   
 Follow the installation guide here: http://expressjs.com/guide.html
 
+Installation
+------------
+
+*  `npm install express`  (Install the express node module)
+*  `node web/js/app/server/app.js` (Run the node app in the git code repo)
+
 
 Derived from Silex - Kitchen Edition
 ------------
