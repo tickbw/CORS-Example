@@ -1,5 +1,10 @@
-Silex - Kitchen Edition
-=======================
+CORS Example - Silex (Symfony 2) Web App, Silex JSON REST API, Node.js JSON REST API 
+==============================================================================================
+Author: Ben Wann (with heavy leverage from the "Silex - Kitchen Edition" project)
+
+
+Derived from Silex - Kitchen Edition
+------------
 
 This project is a base for your silex applications.
 

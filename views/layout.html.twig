@@ -16,30 +16,21 @@
         <script src="/js/libs/modernizr-2.0.6.min.js"></script>
     </head>
     <body>
-        <div id="main-container">
-            {% include ('common/header.html.twig') %}
+        <div id="content">
+	        Data will be displayed below<br/>
+	        PHP Data<br/>
+	        <div id="php-data-block"></div>
+	        Node Data<br/>
+	        <div id="node-data-block"></div>
+        </div>
 
-            <div id="main" role="main" class="container">
-                {% include ('common/notice.html.twig') %}
-
-                {% block content %}
-                    {% if app.session.get('user') %}
-                        Hello {{ app.session.get('user').email }}
-                        <a href="{{ path('logout') }}">{{ 'Logout'|trans }}</a>
-                    {% else %}
-                        Your a not logged. Please <a href="{{ path('login') }}">{{ 'connect'|trans }}</a>
-                    {% endif %}
-                {% endblock %}
-
-
-            </div>
-
-            {% include ('common/footer.html.twig') %}
-        </div> <!--! /#main-container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-        <script src="/js/script.js"></script>
+        
+        <script src="/js/app/client/global.js"></script>
+        <script src="/js/app/client/config.js"></script>
+        <script src="/js/app/client/app.js"></script>
 
         <!--[if lt IE 7 ]>
             <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
